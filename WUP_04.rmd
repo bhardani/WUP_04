@@ -74,6 +74,10 @@ par(mar = c(3, 15, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
+The High school and LT high school do not cross the 0 line therefore there is a difference between high school graduate and non high school graduates.
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+There is a difference between the variable. For this reason we reject the null hypothesis
