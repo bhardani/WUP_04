@@ -11,7 +11,7 @@ output:
 require(knitr)
 require(tidyverse)
 require(tigerstats)
-
+require(mosaic)
 ```
 
 # Introduction
@@ -50,6 +50,10 @@ The students with a no degree have a median less than students with a bachlors o
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=gssDataframe)
+```
 
 ## Inferential Results
 
